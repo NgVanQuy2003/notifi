@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnChickenEgg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luộc Trứng Gà"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btnDuckEgg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luộc Trứng Vịt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/btnFertilizedDuckEgg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luộc Trứng Vịt Lộn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời gian còn lại: "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+</RelativeLayout>
